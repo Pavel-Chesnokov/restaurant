@@ -1,0 +1,13 @@
+.header
+{
+    display: flex;
+    background: transparent;
+    position: fixed;
+}
+
+.header__item
+{
+    display: inline;
+    margin-left: 50px;
+    list-style-type: none;
+}
