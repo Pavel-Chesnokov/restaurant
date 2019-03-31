@@ -21,7 +21,15 @@
 .header__item {
   display: inline;
   margin-left: 50px;
-  list-style-type: none; }
+  list-style-type: none;
+  font-family: Focus-Medium;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400; }
+
+.header__item:hover {
+  color: #fb5231;
+  cursor: pointer; }
 
 .promo {
   width: 100%;
@@ -72,3 +80,5 @@
 .container {
   width: 1601px;
   margin: auto; }
+
+/*# sourceMappingURL=main.css.map */

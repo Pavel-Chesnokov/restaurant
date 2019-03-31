@@ -10,4 +10,14 @@
     display: inline;
     margin-left: 50px;
     list-style-type: none;
+    font-family: Focus-Medium;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.header__item:hover
+{
+	color: $orange;
+	cursor: pointer;
 }
