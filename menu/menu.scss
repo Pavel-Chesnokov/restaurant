@@ -1,7 +1,10 @@
 .menu
 {
 	min-height: 995px;
-	background-image: url(menu/img/bg.jpg);
+	
+	background: url(menu/img/fish.png) center left no-repeat, url(menu/img/meat.png) center right no-repeat;
+	background-color: #1a1f3b;
+
 }
 .menu__text
 {
