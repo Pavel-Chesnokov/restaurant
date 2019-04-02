@@ -77,6 +77,41 @@
   font-size: 90px;
   font-weight: 400; }
 
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(about/img/background.jpg);
+  background-image: url(about/img/Vector_Smart_Object.png);
+  min-height: 710px; }
+
+.about__header {
+  color: #fb5231;
+  font-family: "Marck Script";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 24px; }
+
+.about__text {
+  max-width: 505px;
+  max-height: 120px;
+  color: #4c4c4c;
+  font-family: Focus-Medium;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; }
+
 .container {
   width: 1601px;
   margin: auto; }
