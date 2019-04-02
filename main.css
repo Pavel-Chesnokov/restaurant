@@ -11,6 +11,13 @@
   font-style: normal;
   font-weight: normal; }
 
+@font-face {
+  font-family: "Open Sans-Semibold";
+  src: url("fonts/OpenSans/OpenSans-SemiBold.eot");
+  src: url("fonts/OpenSans/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans/OpenSans-SemiBold.woff") format("woff"), url("fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -383,6 +390,58 @@ form.reservations__form {
 
 .column2 {
   margin-left: 10%; }
+
+.footer {
+  background-color: #1b203c;
+  height: 322px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.footer__text {
+  color: #969595;
+  font-family: Focus-Medium;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.52px; }
+
+.footer__copyright {
+  text-transform: uppercase;
+  font-family: "Open Sans-Semibold";
+  color: #6b6b6b;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.52px; }
+
+.footer__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.footer__column-pl {
+  padding-left: 5%; }
+
+.footer__column-pr {
+  padding-right: 5%; }
+
+.footer__icon-social img {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10%;
+  margin-bottom: 10%; }
 
 .container {
   width: 1601px;
