@@ -1,0 +1,26 @@
+.about
+{
+	@include display-flex;
+	background-image: url(about/img/background.jpg);
+	background-image: url(about/img/Vector_Smart_Object.png);
+	min-height: 710px;
+}
+
+.about__header
+{
+	color: $orange;
+	font-family: "Marck Script";
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.about__text
+{
+max-width: 505px;
+max-height: 120px;
+color: #4c4c4c;
+font-family: Focus-Medium;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
