@@ -3,11 +3,17 @@ html(lang="en")
 head
 	meta(charset="UTF-8")
 	title Restaurant
+	meta(name='viewport' content='width=device-width, initial-scale=1.0')
+	meta(http-equiv='X-UA-Compatible' content='ie=edge')
+	meta(name='robots' content='noindex, nofollow')
+	meta(name='description' content='Описание содержимого страницы')
+	meta(name='keywords' content='Ключевые слова через запятую')
 	link(rel="stylesheet", href="normalize.css")
 	link(rel="stylesheet", href="main.css")
+
 body
+	include header/header.pug
 	.container
-		include header/header.pug
 		include promo/promo.pug
 		include about/about.pug
 		include ingredients/ingredients.pug
@@ -15,4 +21,6 @@ body
 		include reviews/reviews.pug
 		include reservation/reservations.pug
 		include footer/footer.pug
+	script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+	script(src='header/header.js')
 	

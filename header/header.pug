@@ -1,14 +1,14 @@
-header.header
-	.logo
+header.header#header
+	.header__logo(onclick="slowScroll('#promo')")
 		a(href="#")
 			img(src="header/img/Vector_Smart_Object1.png" alt="logo")
 	ul.header__menu
-		li.header__item Home
-		li.header__item Abour
-		li.header__item Igredients
-		li.header__item Menu
-		li.header__item Reviews
-		li.header__item Reservations
+		li.header__item(onclick="slowScroll('#promo')") Home
+		li.header__item(onclick="slowScroll('#about')") About
+		li.header__item(onclick="slowScroll('#ingredients')") Ingredients
+		li.header__item(onclick="slowScroll('#menu')") Menu
+		li.header__item(onclick="slowScroll('#reviews')") Reviews
+		li.header__item(onclick="slowScroll('#reservations')") Reservations
 	.header__social
 		a(href='#')
 			img(src='header/img/Social.png' alt='social')
