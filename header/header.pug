@@ -12,3 +12,14 @@ header.header#header
 	.header__social
 		a(href='#')
 			img(src='header/img/Social.png' alt='social')
+	include __burger-icon/__burger-icon.pug
+
+ul.header__burger
+	li.header__item(onclick="slowScroll('#promo')") Home
+	li.header__item(onclick="slowScroll('#about')") About
+	li.header__item(onclick="slowScroll('#ingredients')") Ingredients
+	li.header__item(onclick="slowScroll('#menu')") Menu
+	li.header__item(onclick="slowScroll('#reviews')") Reviews
+	li.header__item(onclick="slowScroll('#reservations')") 
+
+

@@ -23,7 +23,22 @@
       <li class="header__item" onclick="slowScroll('#reservations')">Reservations</li>
     </ul>
     <div class="header__social"><a href="#"><img src="header/img/Social.png" alt="social"></a></div>
+    <div class="header__burger-icon">
+      <svg viewbox="0 0 800 600">
+        <path id="top" d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200"></path>
+        <path id="middle" d="M300,320 L540,320"></path>
+        <path id="bottom" d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+      </svg>
+    </div>
   </header>
+  <ul class="header__burger">
+    <li class="header__item" onclick="slowScroll('#promo')">Home</li>
+    <li class="header__item" onclick="slowScroll('#about')">About</li>
+    <li class="header__item" onclick="slowScroll('#ingredients')">Ingredients</li>
+    <li class="header__item" onclick="slowScroll('#menu')">Menu</li>
+    <li class="header__item" onclick="slowScroll('#reviews')">Reviews</li>
+    <li class="header__item" onclick="slowScroll('#reservations')"> </li>
+  </ul>
   <div class="container">
     <section class="promo" id="promo">
       <h1 class="promo__header">The right ingredients <br> for the right food</h1><img class="decoration" src="promo/img/Decoration.png" alt="decoration">
@@ -206,4 +221,5 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="header/header.js"></script>
+  <script src="header/__burger-icon/__burger-icon.js"></script>
 </body>
