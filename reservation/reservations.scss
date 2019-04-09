@@ -1,7 +1,7 @@
 .reservations
 {
-	height: 710px;
-	padding-right: 6%;
+	min-height: 700px;
+	padding: 6%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -94,7 +94,63 @@ form.reservations__form
 	box-shadow: inset 1px 1px 5px 0px rgba(0,0,0,0.5);
 }
 
+.reservations__form button:hover
+{
+	opacity: 0.8;
+}
 .column2
 {
 	margin-left: 10%;
 }
+
+@media (max-width: 1370px) {
+	.reservations__column-left>img:first-child
+	{
+		display: none;
+	}
+}
+
+@media (max-width: 860px) {
+	.reservations__column-left>img
+	{
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	.grid__form
+	{
+		flex-direction: column;
+
+	}
+
+	.grid__form label
+	{
+		display: block;
+	}
+
+	.column2, .column1
+	{
+		margin: auto;
+	}
+
+	.reservations__content-right
+	{
+		margin-bottom: 2%;
+	}
+
+	.reservations__form button
+	{
+		margin: 0px auto;
+	}
+	.reservations
+	{
+		align-items: flex-start;
+		height: 610px;
+	}
+
+}
+
+
+
+

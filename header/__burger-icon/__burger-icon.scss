@@ -1,11 +1,12 @@
 
 .header__burger-icon 
-{
-  margin-left: 20% ;
+{ 
+  text-align: right;
+  flex-basis: 100%;
 }
 svg {
-  width: 200px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   cursor: pointer;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -22,7 +23,7 @@ path {
   transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
   stroke-width: 40px;
   stroke-linecap: round;
-  stroke: #a06ba5;
+  stroke: #ffffff;
   stroke-dashoffset: 0px;
 }
 path#top,
@@ -41,3 +42,15 @@ path#middle {
   stroke-dashoffset: -115px;
   stroke-dasharray: 1px 220px;
 }
+
+
+@media (max-width: 370px)
+{
+   svg
+  {
+    width: 100px;
+    height: 100px;
+  }
+
+}
+

@@ -7,7 +7,7 @@
 }
 .menu__text
 {
-	width: 483px;
+	max-width: 483px;
 	color: #ffffff;
 	font-family: Focus-Medium;
 	font-size: 16px;
@@ -28,6 +28,7 @@
 	justify-content: space-around;
 	padding-left: 10%;
 	padding-right: 10%;
+	flex-wrap: wrap;
 }
 
 .menu__subtitle
@@ -45,6 +46,9 @@
 {
 	display: flex;
 	flex-direction: column;
+	padding: 5%;
+
+
 }
 
 

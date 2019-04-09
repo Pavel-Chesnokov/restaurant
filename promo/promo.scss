@@ -10,11 +10,6 @@
 		text-align: center;
 	}
 
-.promo__form
-{
-	width: 33%;	
-}
-
 .promo__button
 {
 	width: 228px;
@@ -45,3 +40,17 @@
 	font-weight: 400;
 
 }
+
+.decoration
+{
+	margin: 5%;
+}
+
+@media (max-width: 800px) 
+{
+	.promo__header
+	{
+		font-size: 60px;
+	}
+}
+

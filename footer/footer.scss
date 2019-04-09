@@ -3,8 +3,10 @@
 	background-color: #1b203c;
 	height: 322px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
+	padding: 5%;
 }
 .footer__text
 {
@@ -30,17 +32,18 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 2%;
 
 }
 
 .footer__column-pl
 {
-	padding-left: 5%;
+	padding: 2%;
 }
 
 .footer__column-pr
 {
-	padding-right: 5%;
+	padding: 2%;
 }
 
 .footer__icon-social img
@@ -51,3 +54,22 @@
 	margin-bottom: 10%;
 }
 
+
+@media (max-width: 720px) {
+	.footer__logo{
+		display: none;
+	}
+	.footer__column
+	{
+		order: 3;
+	}
+
+	.footer__column-pl
+	{
+		order: 1;
+	}
+	.footer__column-pr
+	{
+		order: 2;
+	}
+}

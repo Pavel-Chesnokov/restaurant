@@ -12,12 +12,13 @@ header
 {	
 	z-index: 5000;
 	background-color: rgba(11,11,11,0.5);
-	box-shadow: 0 0 5px #454545;
+	// box-shadow: 0 0 5px #454545;
 	
 }
 .header__logo
 {
 	margin: 20px 0px 20px 180px;
+	width: 200px;
 }
 
 
@@ -35,6 +36,7 @@ header
 .header__social
 {
 	margin: 50px 0 0 124px;
+	width: 80px;
 }
 
 .header__item
@@ -87,10 +89,42 @@ header
 
 }
 
+@media (max-width: 650px)
+{
+	.header__logo
+	{
+		margin-left: 2%;
+	}
+
+	.header__social
+	{
+		display: none;
+	}
+
+}
+
+@media (max-width: 370px)
+{
+	.header__logo img
+	{
+		width: 150px;
+	}
+
+	
+
+}
+
+
 
 .header__burger>li
 {
+	line-height: 50px;
 	display: block;
+}
+
+.header__burger>li:hover
+{
+	background-color: #FFFFFF;
 }
 
 .header__burger
@@ -98,7 +132,17 @@ header
 	padding: 0;
 	margin: 0;
 	position: fixed;
-	top:130px;
+	top:-300px;
 	text-align: center;
-	width: 100%
+	width: 100%;
+	background-color: #000000;
+	opacity: 0.48;
+	z-index: 1;
+	transition: all 0.5s;
+}
+
+.header__burger-active
+{
+	top:130px;
+	transition: all 0.5s;
 }
