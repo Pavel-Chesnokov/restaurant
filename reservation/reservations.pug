@@ -7,16 +7,16 @@ section.reservations#reservations
 			h2.title Fine ingredients
 			img.reservations__decoration(src="reservation/img/Divider.png", alt="decoration")
 			p.reservations__text.about__text If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.
-		form.reservations__form 
+		form.reservations__form(metod="post", action="reservation/post.php", enctype="multipart/form-data)
 				.grid__form 
 					.column1
 						label Name
-						input(type="text", placeholder="your name *")
+						input(name="name", type="text", placeholder="your name *")
 						label Date
-						input(type="text", placeholder="Date *")
+						input(name="date", type="text", placeholder="Date *")
 					.column2
 						label Email
-						input(type="email", placeholder="your email *")
+						input(name="email", type="email", placeholder="your email *")
 						label Party number
-						input(type="number", placeholder="Party number")
-				button.reservations__button Book now!
+						input(name="number", type="number", placeholder="Party number")
+				button.reservations__button(type="submit", value="Отправить") Book now!
